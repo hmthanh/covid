@@ -1,0 +1,24 @@
+{
+  "name": "alertdashboard",
+  "version": "1.0.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "description": "Alert Dashboard",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "dev": "parcel src/index.html --https",
+    "build": "parcel build",
+    "analys": "parcel build src/index.html --reporter @parcel/reporter-bundle-analyzer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ThanhHM2",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/compressor-brotli": "^2.6.2",
+    "@parcel/compressor-gzip": "^2.6.2",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "swr": "^1.3.0"
+  }
+}
